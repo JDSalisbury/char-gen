@@ -1,0 +1,81 @@
+Origin,             Ablty,  Skill,         Bonus,  AC,Ft,Rf,Wl
+A.I.,               INT,    Choice,        Psi,    0, 0, 0, 2
+Alien,              INT,    Science,       Dark,   0, 0, 0, 2
+Android,            INT,    Science,       Dark,   0, 2, 0, 0
+Arachnoid,          DEX,    Nature,        Bio,    0, 0, 2, 0
+Cockroach,          CON,    Mechanics,     Bio,    0, 0, 2, 0
+Cryokinetic,        CHA,    Stealth,       Psi,    0, 1, 0, 0
+Doppelganger,       INT,    Conspiracy,    Dark,   0, 0, 2, 0
+Ectoplasmic,        WIS,    Perception,    Dark,   0, 0, 0, 0
+Electrokinetic,     WIS,    Mechanics,     Dark,   0, 0, 2, 0
+Empath,             CHA,    Insight,       Psi,    0, 0, 0, 0
+Entropic,           CHA,    Science,       Dark,   1, 0, 1, 0
+Exploding,          CON,    Athletics,     Psi,    0, 1, 0, 1
+Felinoid,           DEX,    Stealth,       Bio,    0, 0, 1, 0
+Fungoid,            CON,    Interaction,   Bio,    0, 0, 0, 2
+Gelatinous,         STR,    Stealth,       Bio,    0, 2, 0, 0
+Giant,              STR,    Athletics,     Bio,    0, 2, 0, 0
+Gravity Controller, CON,    Athletics,     Dark,   0, 0, 2, 0
+Hawkoid,            WIS,    Perception,    Bio,    0, 0, 0, 0
+Hypercognitive,     WIS,    Insight,       Psi,    0, 0, 2, 0
+Magnetic,           DEX,    Mechanics,     Dark,   1, 0, 0, 0
+Mind Breaker,       CHA,    Interaction,   Psi,    0, 0, 0, 2
+Mind Coercer,       CHA,    Interaction,   Psi,    0, 0, 0, 2
+Mythic,             CHA,    Interaction,   Psi,    0, 1, 1, 1
+Nightmare,          INT,    Interaction,   Psi,    0, 0, 0, 2
+Plaquebearer,       CON,    Athletics,     Bio,    0, 2, 0, 0
+Plant,              CON,    Nature,        Bio,    0, 2, 0, 0
+Plastic,            DEX,    Acrobatics,    Bio,    0, 1, 1, 0
+Prescient,          WIS,    Interaction,   Psi,    1, 0, 0, 1
+Pyrokinetic,        WIS,    Interaction,   Psi,    0, 0, 0, 0
+Radioactive,        CON,    Science,       Dark,   0, 2, 0, 0
+Rat Swarm,          DEX,    Stealth,       Bio,    0, 0, 0, 0
+Reanimated,         STR,    Athletics,     Dark,   0, 0, 0, 0 
+Seismic,            STR,    Athletics,     Dark,   0, 0, 0, 0
+Shapeshifter,       CHA,    Shapeshifter,  Bio,    0, 0, 2, 0
+Simian,             STR,    Athletics,     Bio,    0, 1, 1, 0
+Speedster,          DEX,    Acrobatics,    Psi,    0, 0, 2, 0
+Telekinetic,        INT,    Mechanics,     Psi,    2, 0, 2, 0
+Temporal,           WIS,    Conspiracy,    Dark,   2, 0, 0, 0
+Wheeled,            CON,    Athletics,     Dark,   0, 0, 2, 0
+Yeti,               STR,    Nature,        Bio,    1, 0, 0, 0
+Amphibian,          DEX,    Nature,        Bio,    1, 0, 1, 0
+Angelic,            CHA,    Interaction,   Dark,   0, 0, 0, 0
+Animated,           CHA,    Athletics,     Dark,   0, 0, 0, 0
+Anneloid,           CON,    Nature,        Bio,    0, 2, 0, 0
+Aquatic,            DEX,    Athletics,     Bio,    2, 0, 0, 0
+Canine,             STR,    Perception,    Bio,    0, 2, 0, 0
+Chelonian,          CON,    Athletics,     Bio,    1, 0, 0, 0
+Cosmic,             INT,    Science,       Dark,   0, 2, 0, 0
+Demonic,            CHA,    Conspiracy,    Dark,   0, 2, 0, 0
+Fey,                CHA,    Interaction,   Dark,   1, 0, 1, 0
+Goatfolk,           CON,    Mechanics,     Bio,    0, 2, 0, 0
+Hemokinetic,        CHA,    Science,       Dark,   0, 3, 0, 0
+Hoofed,             CON,    Athletics,     Bio,    0, 0, 2, 0
+Horned,             CON,    Interaction,   Bio,    1, 0, 0, 0
+Inisible,           DEX,    Stealth,       Dark,   2, 0, 2, 0
+Lepidoptoid,        CHA,    Acrobatics,    Bio,    0, 0, 0, 1
+Miniature,          CHA,    Acrobatics,    Bio,    2, 0, 2, 0
+Prehistoric,        CON,    Nature,        Bio,    0, 2, 0, 0
+Lagomorph,          STR,    Perception,    Bio,    0, 2, 2, 2
+Saurian,            CON,    Conspiracy,    Bio,    0, 0, 2, 0
+Scorpionoid,        DEX,    Stealth,       Bio,    0, 2, 0, 0
+Shadoweaver,        CHA,    Choice,        Dark,   1, 0, 1, 1
+Sharkoid,           DEX,    Nature,        Bio,    0, 0, 0, 0
+Siren,              CON,    Interaction,   Bio,    0, 0, 0, 2
+Squidling,          DEX,    Acrobatics,    Bio,    0, 0, 2, 0
+Tauric,             CON,    Athletics,     Bio,    0, 2, 0, 0
+Two-Headed,         CON,    Perception,    Bio,    0, 0, 0, 0
+Undead,             CON,    Athletics,     Dark,   0, 0, 0, 2
+Vampire,            STR,    Conspiracy,    Dark,   0, 0, 0, 0
+Weather Witch,      INT,    Nature,        Psi,    0, 2, 0, 0
+Wolfen,             CON,    Perception,    Bio,    0, 0, 2, 0
+
+Choice for A.I. = Conspiracy Mechanics Nature Science
+Choice for Human = Interaction Science
+Choice for Shadoweaver = both Stealth and Perception
+
+AC:0 Fort:0 Ref:0 Will:0
+
+
+Tie, Engineered Human, INT, Choice, ALL, 0, 1, 1, 1
