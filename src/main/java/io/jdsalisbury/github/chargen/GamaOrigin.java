@@ -54,4 +54,9 @@ public class GamaOrigin {
 		return will;
 	}
 
+	@Override
+	public String toString() {
+		return origin + " " + ability + " " + skill + " " + bonus + " " + ac + " " + fort + " " + ref + " " + will;
+	}
+
 }
