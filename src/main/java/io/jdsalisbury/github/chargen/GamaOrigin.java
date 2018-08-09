@@ -1,6 +1,7 @@
 package io.jdsalisbury.github.chargen;
 
 public class GamaOrigin {
+
 	private String origin;
 	private String ability;
 	private String skill;
@@ -21,12 +22,36 @@ public class GamaOrigin {
 		this.will = will;
 	}
 
-	public String getName() {
+	public String getOrigin() {
 		return origin;
 	}
 
 	public String getAbility() {
 		return ability;
+	}
+
+	public String getSkill() {
+		return skill;
+	}
+
+	public String getBonus() {
+		return bonus;
+	}
+
+	public int getAc() {
+		return ac;
+	}
+
+	public int getFort() {
+		return fort;
+	}
+
+	public int getRef() {
+		return ref;
+	}
+
+	public int getWill() {
+		return will;
 	}
 
 }

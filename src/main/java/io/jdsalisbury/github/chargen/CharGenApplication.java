@@ -8,5 +8,8 @@ public class CharGenApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CharGenApplication.class, args);
+
+		FileReader.readCharsFromFile("gammaWorldCharSheet.csv");
+
 	}
 }

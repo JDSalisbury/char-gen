@@ -12,7 +12,7 @@ public class GamaOriginTest {
 
 	@Test
 	public void shouldReturnOriginName() {
-		String name = vampire.getName();
+		String name = vampire.getOrigin();
 		assertThat(name, is("Vampire"));
 	}
 
