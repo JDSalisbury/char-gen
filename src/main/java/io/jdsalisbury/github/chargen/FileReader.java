@@ -16,9 +16,12 @@ public class FileReader {
 
 			String line = reader.readLine();
 
-			while (line != null) {
+			while (isACharOrigin(line)) {
 				String[] setUp = line.split(",");
-				System.out.println(Arrays.toString(setUp));
+				// for (String charOrigin : setUp) {
+				// System.out.println(charOrigin.replace(" ", ""));
+				// }
+				System.out.println(Arrays.toString(setUp).replace(" ", ""));
 
 				line = reader.readLine();
 			}
@@ -28,6 +31,10 @@ public class FileReader {
 
 		}
 		return null;
+	}
+
+	public static boolean isACharOrigin(String a) {
+		return a.length() != 0;
 	}
 
 }

@@ -1,4 +1,3 @@
-Origin,             Ablty,  Skill,         Bonus,  AC,Ft,Rf,Wl
 A.I.,               INT,    Choice,        Psi,    0, 0, 0, 2
 Alien,              INT,    Science,       Dark,   0, 0, 0, 2
 Android,            INT,    Science,       Dark,   0, 2, 0, 0
@@ -30,7 +29,7 @@ Prescient,          WIS,    Interaction,   Psi,    1, 0, 0, 1
 Pyrokinetic,        WIS,    Interaction,   Psi,    0, 0, 0, 0
 Radioactive,        CON,    Science,       Dark,   0, 2, 0, 0
 Rat Swarm,          DEX,    Stealth,       Bio,    0, 0, 0, 0
-Reanimated,         STR,    Athletics,     Dark,   0, 0, 0, 0 
+Reanimated,         STR,    Athletics,     Dark,   0, 0, 0, 0
 Seismic,            STR,    Athletics,     Dark,   0, 0, 0, 0
 Shapeshifter,       CHA,    Shapeshifter,  Bio,    0, 0, 2, 0
 Simian,             STR,    Athletics,     Bio,    0, 1, 1, 0
