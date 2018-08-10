@@ -8,13 +8,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class CharGenApplication {
+	static Random rand = new Random();
+	static List<GamaOrigin> characterOriginList = FileReader.readCharsFromFile("gammaWorldCharSheet.csv");
+
+	public static GamaOrigin getRandomOrigin() {
+		int randomInt = rand.nextInt(characterOriginList.size());
+		return characterOriginList.get(randomInt);
+
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(CharGenApplication.class, args);
 
-		List<GamaOrigin> characterOriginList = FileReader.readCharsFromFile("gammaWorldCharSheet.csv");
-
-		Random rand = new Random();
 		int randomIndex1 = rand.nextInt(characterOriginList.size());
 		int randomIndex2 = rand.nextInt(characterOriginList.size());
 
@@ -23,8 +28,8 @@ public class CharGenApplication {
 
 		System.out.println(characterOriginList);
 		System.out.println(characterOriginList.size());
-		System.out.println(randomOrigin1);
-		System.out.println(randomOrigin2);
+		System.out.println(getRandomOrigin());
+		System.out.println(getRandomOrigin());
 
 	}
 }
