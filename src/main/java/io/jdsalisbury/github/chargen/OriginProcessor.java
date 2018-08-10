@@ -36,4 +36,11 @@ public class OriginProcessor {
 		setSecondaryAbility(secondary);
 	}
 
+	public int getPrimaryAbilityScore() {
+		if (getPrimaryAbility().equals(getSecondaryAbility())) {
+			return 20;
+		}
+		return 18;
+	}
+
 }
