@@ -37,17 +37,24 @@ public class OriginProcessor {
 	}
 
 	public int getPrimaryAbilityScore() {
-		if (getPrimaryAbility().equals(getSecondaryAbility())) {
-			return 20;
+		int abilityScore = 18;
+		if (abilitiesAreTheSame()) {
+			abilityScore = 20;
 		}
-		return 18;
+		return abilityScore;
 	}
 
 	public int getSecondaryAbilityScore() {
-		if (getPrimaryAbility().equals(getSecondaryAbility())) {
-			return 20;
+		int abilityScore = 16;
+		if (abilitiesAreTheSame()) {
+			abilityScore = 20;
 		}
-		return 16;
+		return abilityScore;
+	}
+
+	public boolean abilitiesAreTheSame() {
+		return getPrimaryAbility().equals(getSecondaryAbility());
+
 	}
 
 }
