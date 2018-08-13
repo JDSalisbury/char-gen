@@ -1,9 +1,12 @@
 package io.jdsalisbury.github.chargen;
 
+import java.util.Random;
+
 public class OriginProcessor {
 	private String type;
 	private String primaryAbility;
 	private String secondaryAbility;
+	private Random rand = new Random();
 
 	public void setOriginType(GamaOrigin primary, GamaOrigin secondary) {
 		String primaryType = primary.getOrigin();
@@ -47,13 +50,23 @@ public class OriginProcessor {
 	public int getSecondaryAbilityScore() {
 		int abilityScore = 16;
 		if (abilitiesAreTheSame()) {
-			abilityScore = 20;
+			abilityScore = rollDice(3, 6, 0);
 		}
 		return abilityScore;
 	}
 
 	public boolean abilitiesAreTheSame() {
 		return getPrimaryAbility().equals(getSecondaryAbility());
+
+	}
+
+	public int rollDice(int numberOfDice, int sidesOnDice, int modifier) {
+		int result = 0;
+		for (int i = 0; i <= numberOfDice - 1; i++) {
+			result += rand.nextInt(sidesOnDice) + 1;
+		}
+		int total = result + modifier;
+		return total;
 
 	}
 
