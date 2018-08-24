@@ -54,7 +54,9 @@ public class OriginProcessorTest {
 
 	@Test
 	public void shouldGiveAScoreForOtherAbilities() {
-
+		int abilityScore = processOrigins.getAbilityScore();
+		System.out.println(abilityScore);
+		assertThat(abilityScore, is(not(0)));
 	}
 
 }

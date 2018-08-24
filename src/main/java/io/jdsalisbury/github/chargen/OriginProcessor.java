@@ -55,6 +55,10 @@ public class OriginProcessor {
 		return abilityScore;
 	}
 
+	public int getAbilityScore() {
+		return rollDice(3, 6, 0);
+	}
+
 	public boolean abilitiesAreTheSame() {
 		return getPrimaryAbility().equals(getSecondaryAbility());
 
