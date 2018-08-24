@@ -31,7 +31,7 @@ Radioactive,        CON,    Science,       Dark,   0, 2, 0, 0
 Rat Swarm,          DEX,    Stealth,       Bio,    0, 0, 0, 0
 Reanimated,         STR,    Athletics,     Dark,   0, 0, 0, 0
 Seismic,            STR,    Athletics,     Dark,   0, 0, 0, 0
-Shapeshifter,       CHA,    Interaction,  Bio,    0, 0, 2, 0
+Shapeshifter,       CHA,    Interaction,   Bio,    0, 0, 2, 0
 Simian,             STR,    Athletics,     Bio,    0, 1, 1, 0
 Speedster,          DEX,    Acrobatics,    Psi,    0, 0, 2, 0
 Telekinetic,        INT,    Mechanics,     Psi,    2, 0, 2, 0

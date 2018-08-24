@@ -67,7 +67,6 @@ public class OriginProcessor {
 		}
 		int total = result + modifier;
 		return total;
-
 	}
 
 }
